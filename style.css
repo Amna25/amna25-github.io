@@ -1,0 +1,72 @@
+body{
+    background-color:#484848;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+
+
+.home-container{
+    text-align: center;
+  }
+  .photo{
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    /*  */
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  .Amy-name{
+    font-size: 90px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    }
+  h2{
+      font-size: 50px;
+    }
+  .software{
+    margin-bottom: 0;
+  }
+  .developer{
+    margin-top: 0px;
+  }
+  @media (min-width: 1080px){
+  .home-container{
+    display: grid;
+    max-width: 90%;
+    /* margin: 1rem auto; */
+    grid-template-areas: "A A B B"
+                        "C C B B"
+  }
+  .photo{
+    grid-area: B;
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+    /*  */
+    margin-top: 125px;
+    margin-bottom: 100px;
+  }
+  .Amy-name{
+    grid-area: A;
+    font-size: 90px;
+    margin-top: 200px;
+    }
+  h2{
+      font-size: 50px;
+    }
+  .scoftware{
+    grid-area: C;
+    padding-top: 80px;
+    }
+  .software{
+    margin-left: 200px;
+    margin-bottom: 0;
+  }
+  .developer{
+    margin-left: 350px;
+    margin-top: 0px;
+  }
+  
+  }

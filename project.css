@@ -1,0 +1,109 @@
+
+.parent-container{
+    display: grid;
+    text-align: center;
+    margin-left: 15px;
+  }
+  .parent-container > div > h3{
+    color: orange;
+  }
+  .A-Image{
+    height: auto;
+    width: 320px;
+    padding-top: 40px;
+  }
+  .Bproject > ul > li{
+    list-style: none;
+    margin-right: 25px;
+  }
+  .Bproject > h4{
+    color: orange;
+  }
+  .Dproject > ul > li{
+    list-style: none;
+    margin-right: 25px;
+  }
+  .Dproject > h4{
+    color: orange;
+  }
+  .Fproject{
+    margin-bottom: 50px;
+  }
+  .Fproject > ul > li{
+    list-style: none;
+    margin-right: 25px;
+  }
+  .Fproject > h4{
+    color: orange;
+  }
+  .title{
+    margin-bottom: 0;
+    margin-top: 36px;
+  }
+  .github_link{
+    text-decoration: none;
+    padding: 5px;
+      
+  }
+  .github_link:hover{
+    background-color: orange;
+  }
+  @media (min-width: 1080px){
+  .parent-container{
+    display: grid;
+    max-width: 90%;
+    margin: 1rem auto;
+    grid-template-areas: "A A B B"
+                        "C C D D"
+                        "E E F F";
+    grid-column-gap: 2rem;
+    padding-top: 50px;
+  }
+  .A{
+    grid-area: A;
+  }
+  .A-Image:hover{
+      position: relative;
+      top: -25px;
+      left: -35px;
+      width: 640px;
+      height: auto;
+      display: block;
+      z-index: 999;
+  }
+  .Bproject{
+    grid-area: B;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+  }
+  .C{
+    grid-area: C;
+  }
+  .video:hover{
+      position: relative;
+      top: -25px;
+      left: -35px;
+      width: 640px;
+      height: auto;
+      display: block;
+      z-index: 999;
+  }
+  .Dproject{
+    grid-area: D;
+    padding-left: 150px;
+    margin-left: 50px;
+  }
+  .E{
+    grid-area: E;
+    padding-top: 80px;
+  }
+  .Fproject{
+    grid-area: F;
+    padding-left: 150px;
+    padding-top: 80px;
+  }
+  .title{
+    text-align: center;
+  }
+}
