@@ -1,0 +1,106 @@
+.parent-container{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Babout{
+    padding-left:20px;
+    padding-right:25px;
+    line-height: 25px;
+    text-align: justify;
+}
+.Cabout{
+    padding-left:20px;
+    padding-right:25px;
+    line-height: 25px;
+}
+.Cabout_text{
+    text-align: justify;
+}
+.photo-about1{
+    margin-top: 50px;
+    height:100px;
+    width: 300px;
+}
+.photo-about{
+    height:50px;
+    width: 200px;
+}
+.link{
+    color: orange;
+    text-decoration: none;
+}
+.blog_button{
+    margin-bottom: 36px;
+    padding: 5px;
+    border-style: none;
+    color: white;
+    background-color: #484848;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+.blog_button:hover{
+    background-color: orange;
+}
+@media (min-width: 1080px){
+.parent-container{
+    display: grid;
+    max-width: 90%;
+    margin: 1rem auto;
+    grid-template-areas: "A A B B"
+                        "C C D D"
+}
+.Aphoto{
+    grid-area: A;
+    padding-top: 0px;
+    height: 250px;
+    width: 550px;
+}
+.Babout{
+    grid-area: B;
+    padding: 50px;
+    padding-top: 0px;
+    margin-left: 50px;
+}
+.Cabout{
+    grid-area: C;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+ .Dphoto{
+    grid-area: C;
+} 
+.photo-about1{
+    width: auto;
+    margin-top: 100px;
+    height:130px;
+    width: 300px;
+    padding: 30px;
+}
+.photo-about1:hover{
+    position: relative;
+    top: -25px;
+    left: -35px;
+    width: auto;
+    height: 250px;
+    display: block;
+    z-index: 999;
+}
+.photo-about{
+    height:200px;
+    width: 450px;
+    padding: 5px;
+    margin-left: 50px;
+}
+.photo-about:hover{
+    position: relative;
+    top: -25px;
+    left: -35px;
+    width: auto;
+    height: 600px;
+    display: block;
+    z-index: 999;
+}
+.Cabout_text{
+    margin-top: 0;
+}
+}
